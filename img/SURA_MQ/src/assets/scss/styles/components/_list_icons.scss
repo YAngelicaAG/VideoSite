@@ -1,0 +1,54 @@
+.ag-list-icons {
+  font-size: 15px !important;
+  line-height: 1.1 !important;
+
+  // For adjust size font in accesibility
+  .ag-is-inherit-font & {
+    font-size: inherit !important;
+  }
+}
+
+.ag-list-icons_bottomless {
+  cursor: pointer;
+  box-shadow: none !important;
+  border-color: transparent;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0;
+}
+.ag-list-icons_hover {
+  &:hover {
+    border-radius: 8px;
+    border: 1px solid $c-gray-300 !important;
+    box-shadow: 0 5px 20px rgba(0, 45, 84, 0.15) !important;
+  }
+}
+
+.ag-list-icons__txt {
+  &::before {
+    padding-right: 8px;
+    font-size: 26px;
+    color: $c-primary;
+  }
+}
+.ag-list-icons__txt_secondary {
+  &::before {
+    color: $c-secondary;
+  }
+}
+.ag-list-icons__txt_size {
+  &::before {
+    margin-bottom: 8px;
+    padding-right: 0;
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ag-list-icons__mw {
+    max-width: 150px;
+  }
+
+  .ag-list-icons__txt_size {
+    max-width: 150px;
+  }
+}

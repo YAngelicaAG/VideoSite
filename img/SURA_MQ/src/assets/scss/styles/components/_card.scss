@@ -1,0 +1,34 @@
+.ag-card__overlay {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: $c-neutro;
+    background-color: rgba($color: #0000, $alpha: 0.3);
+  }
+}
+
+.ag-card__overlay-img {
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .ag-card__overlay {
+    width: 100%;
+  }
+
+  .ag-card__overlay-img {
+    height: 230px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}

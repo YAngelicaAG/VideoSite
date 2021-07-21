@@ -1,0 +1,12 @@
+//-*------------------------------------*
+//-  Component styles
+//-*------------------------------------*
+@import "mix/mix_font_family_ico";
+
+@import "settings/variables/var_paths", "settings/variables/var_font_ico",
+  "settings/variables/var_color";
+
+@import "generic/font_face", "generic/theme";
+
+@import "components/navbar", "components/list_icons", "components/card",
+  "components/list";

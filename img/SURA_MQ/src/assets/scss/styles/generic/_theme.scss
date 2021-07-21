@@ -1,0 +1,25 @@
+.t-theme-contrast {
+  background-color: black;
+
+  .bg-light  {
+    background-color: inherit !important;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .ag-list-icons_bottomless {
+    background-color: transparent !important;
+    color: white !important;
+  }
+
+  footer,
+  a {
+    color: white;
+
+    .i-politicas {
+      color: inherit !important;
+    }
+  }
+}

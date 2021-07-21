@@ -1,0 +1,35 @@
+.ag-nav__link {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 25%;
+    right: 6px;
+    width: 1px;
+    height: 50%;
+    background-color: $c-gray-500;
+  }
+}
+
+.ag-nav-link_sm {
+  font-size: 12px;
+}
+
+// Custom search of second header navigation
+.ag-nav__search {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    right: 0;
+    padding-right: 16px;
+    color: $c-primary;
+  }
+}
+.ag-nav__search-input {
+  &::placeholder {
+    color: $c-primary;
+  }
+}
+// End custom search of second header navigation

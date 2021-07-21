@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba Técnia SURA MQ</title>
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/styles/main.css" />
+  </head>
+  <body data-font-size="16">
+    <!-- Accesibility bar -->
+    <div class="bg-dark">
+      <div style="font-size: 16px !important" class="container">
+        <div class="row justify-content-end py-3 text-white">
+          <!-- CONTRASTE -->
+          <div class="col-3 d-flex align-items-center justify-content-end">
+            <div
+              class="
+                form-check form-switch
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+            >
+              <p class="mb-0 pe-5">
+                <label class="form-check-label" for="flexSwitchCheckDefault">
+                  Alto Contraste
+                </label>
+              </p>
+              <input
+                class="form-check-input js-btn-contrast"
+                type="checkbox"
+                id="flexSwitchCheckDefault"
+              />
+            </div>
+          </div>
+
+          <!-- SIZE FONT -->
+          <div class="col-3 d-flex align-items-center">
+            <p class="mb-0 pe-2">Tamaño de letra</p>
+            <div>
+              <button class="border-0 rounded mx-2 js-btn-min-size">-</button>
+              <span>A</span>
+              <button class="border-0 rounded mx-2 js-btn-max-size">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <!-- Header navigation top -->
+      <nav class="navbar navbar-light navbar-expand-lg p-4">
+        <div class="container-fluid flex-wrap">
+          <!-- Sura brand -->
+          <span class="navbar-brand mb-0 h1">
+            <img src="assets/imgs/logo_sura.svg" alt="Logo Sura" />
+          </span>
+
+          <!-- Burger menu for MB -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navigationTopHeader"
+            aria-controls="navigationTopHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Header top navigation -->
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="navigationTopHeader"
+          >
+            <div class="navbar-nav align-items-lg-center text-lg-center">
+              <a
+                class="ag-nav__link nav-link pe-4 fw-bold active"
+                aria-current="page"
+                href="#"
+              >
+                Inicio
+              </a>
+              <a class="ag-nav__link nav-link pe-4 fw-normal" href="#"
+                >Normatividad</a
+              >
+              <a class="ag-nav__link nav-link pe-4 fw-normal" href="#"
+                >Contáctenos</a
+              >
+              <a class="ag-nav__link nav-link pe-4 fw-normal" href="#"
+                >Líneas de atención</a
+              >
+              <a class="ag-nav__link nav-link pe-4 fw-normal" href="#"
+                >Oficinas</a
+              >
+              <a class="ag-nav__link nav-link pe-4 fw-normal" href="#">
+                Preguntas frecuentes
+              </a>
+              <a class="ag-nav__link nav-link pe-4 fw-normal" href="#"
+                >Solicitud de Clave</a
+              >
+              <!-- Login Dropdown -->
+              <div
+                class="
+                  nav-item
+                  dropdown
+                  bg-primary
+                  rounded-pill
+                  align-self-center
+                  ms-lg-4
+                "
+              >
+                <a
+                  class="nav-link dropdown-toggle text-light px-3 py-1"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Iniciar sesión
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Action</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header navigation bottom -->
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-light
+          border border-top-0 border-end-0 border-start-0 border-1 border-white
+          bg-secondary
+          py-2
+          px-4
+        "
+      >
+        <div class="container-fluid flex-wrap">
+          <span class="navbar-brand text-white">EPS</span>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#headerNavigationBottom"
+            aria-controls="headerNavigationBottom"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="headerNavigationBottom"
+          >
+            <div class="navbar-nav align-items-lg-center text-lg-center">
+              <a class="nav-link pe-4 text-white" href="#"> Empleadores </a>
+              <a class="nav-link pe-4 text-white" href="#">Afiliados</a>
+              <a class="nav-link pe-4 text-white" href="#">Independientes</a>
+              <a class="nav-link pe-4 text-white" href="#">
+                Asesores comerciales
+              </a>
+              <a class="nav-link pe-4 text-white" href="#">
+                Prestadores de servicios
+              </a>
+              <a class="nav-link pe-4 text-white" href="#">PAC</a>
+
+              <!-- Search navigation -->
+              <form class="ag-nav__search d-flex align-items-center i-search">
+                <input
+                  class="ag-nav__search-input form-control"
+                  type="search"
+                  placeholder="Buscar"
+                  aria-label="Buscar"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner carrousel -->
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Items carrousel -->
+        <div class="carousel-item active">
+          <img
+            src="assets/imgs/actualizar_informacion_sura.png"
+            class="d-block w-100"
+            alt="Actualiza tu información con EPS SURA"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Quick links -->
+    <section class="bg-light py-5">
+      <h2 class="mb-5 text-center text-primary text-uppercase fw-bold">
+        ACCESOS DIRECTOS
+      </h2>
+
+      <!-- Icon list -->
+      <div class="container px-4">
+        <div
+          class="ag-list-icons row row-cols-1 row-cols-md-3 row-cols-xl-6 g-2"
+        >
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <div class="card-body d-flex justify-content-center py-2 px-2">
+                <p
+                  class="
+                    ag-list-icons__txt ag-list-icons__mw
+                    card-title
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-0
+                    i-clic
+                  "
+                >
+                  ¿Cómo afiliarme?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <div class="card-body d-flex justify-content-center py-2 px-2">
+                <p
+                  class="
+                    ag-list-icons__txt ag-list-icons__mw
+                    card-title
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-0
+                    i-boletin-saludaldia
+                  "
+                >
+                  Me trasladaron a SURA
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <div class="card-body d-flex justify-content-center py-2 px-2">
+                <p
+                  class="
+                    ag-list-icons__txt ag-list-icons__mw
+                    card-title
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-0
+                    i-clic
+                  "
+                >
+                  Servicios a un clic
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <div class="card-body d-flex justify-content-center py-2 px-2">
+                <p
+                  class="
+                    ag-list-icons__txt ag-list-icons__mw
+                    card-title
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-0
+                    i-locate
+                  "
+                >
+                  IPS puntos de atención
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <div class="card-body d-flex justify-content-center py-2 px-2">
+                <p
+                  class="
+                    ag-list-icons__txt ag-list-icons__mw
+                    card-title
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-0
+                    i-address-book
+                  "
+                >
+                  IPS puntos de atención
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <div class="card-body d-flex justify-content-center py-2 px-2">
+                <p
+                  class="
+                    ag-list-icons__txt ag-list-icons__mw
+                    card-title
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-0
+                    i-clic
+                  "
+                >
+                  PAC
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section covid 19 -->
+    <section class="py-5">
+      <h2 class="mb-5 text-center text-primary text-uppercase fw-bold">
+        TODO SOBRE EL COVID-19
+      </h2>
+
+      <div class="container px-4">
+        <!-- Icon list -->
+        <div
+          class="
+            row row-cols-1 row-cols-lg-3
+            g-2
+            justify-content-center
+            gx-3
+            px-md-5
+          "
+        >
+          <div class="col">
+            <div
+              class="
+                ag-list-icons
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                border
+                rounded-3
+                bg-white
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-covid
+                  mb-0
+                "
+              >
+                ¿Qué hacer si tienes síntomas de COVID-19?
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="
+                ag-list-icons
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                border
+                rounded-3
+                bg-white
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-file
+                  mb-0
+                "
+              >
+                Todo sobre la prueba COVID-19
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="
+                ag-list-icons
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                border
+                rounded-3
+                bg-white
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-derechos
+                  mb-0
+                "
+              >
+                Salud mental de tiempos de covid-19
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Informative banner -->
+        <div class="row pt-5">
+          <div class="col-xl-8 m-auto">
+            <a href="#" class="card rounded-3 m-auto text-white">
+              <img
+                src="assets/imgs/banner_covid.png"
+                class="card-img rounded-3"
+                alt="¿Ya conoces el plan complementario?"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section blog -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h3 class="fw-bold text-primary">Blog</h3>
+
+        <!-- Blog items -->
+        <div class="row row-cols-1 row-cols-lg-2 mt-5">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0 flex-xl-row py-4 px-3">
+                <div class="ag-card__overlay col-md-4 i-play-circle">
+                  <img
+                    src="assets/imgs/img_card.png"
+                    class="
+                      ag-card__overlay-img
+                      img-fluid
+                      w-100
+                      h-100
+                      rounded-start
+                    "
+                    alt="¡Aseguramos el logro más importante de los empresarios!"
+                  />
+                </div>
+                <div class="col-xl-8">
+                  <div class="card-body">
+                    <h6 class="card-title text-primary fw-bold mb-3">
+                      ¡Aseguramos el logro más importante de los empresarios!
+                    </h6>
+                    <p class="card-text">
+                      En SURA acompañamos a aquellos empresarios que construyen
+                      empresa y que con su equipo, trabajan por…
+                    </p>
+                    <button
+                      class="
+                        btn btn-outline-primary
+                        rounded-pill
+                        text-uppercase
+                        py-1
+                        px-4
+                      "
+                    >
+                      leer más
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0 flex-xl-row py-4 px-3">
+                <div class="col-md-4">
+                  <img
+                    src="assets/imgs/img_card.png"
+                    class="
+                      ag-card__overlay-img
+                      img-fluid
+                      w-100
+                      h-100
+                      rounded-start
+                    "
+                    alt="¡Aseguramos el logro más importante de los empresarios!"
+                  />
+                </div>
+                <div class="col-xl-8">
+                  <div class="card-body">
+                    <h6 class="card-title text-primary fw-bold mb-3">
+                      ¡Aseguramos el logro más importante de los empresarios!
+                    </h6>
+                    <p class="card-text">
+                      En SURA acompañamos a aquellos empresarios que construyen
+                      empresa y que con su equipo, trabajan por…
+                    </p>
+                    <button
+                      class="
+                        btn btn-outline-primary
+                        rounded-pill
+                        text-uppercase
+                        py-1
+                        px-4
+                      "
+                    >
+                      leer más
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button blog page -->
+        <div class="row align-items-center justify-content-center pt-4">
+          <div class="col-6 text-center">
+            <button
+              class="btn btn-primary rounded-pill text-uppercase py-1 px-4"
+            >
+              Ir al blog
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section services -->
+    <section class="py-5">
+      <div class="container">
+        <h3 class="fw-bold text-primary">Servicios a un clic</h3>
+
+        <!-- Services items -->
+        <div class="row row-cols-1 g-4 row-cols-md-2 row-cols-lg-4 mt-4">
+          <div class="col">
+            <div class="card h-100 justify-content-center mb-3 shadow">
+              <div class="row g-0 flex-xl-row py-3 px-2">
+                <div class="col">
+                  <div class="card-body">
+                    <h6 class="card-title text-primary fw-bold mb-3">
+                      Solicitud de citas
+                    </h6>
+                    <p class="card-text lh-1 fw-light">
+                      Lorem ipsum dolor sit amet, consectetur adipscing elit.
+                      Nunc maximus, nulla ut commodo sagittis, sapien dui mattis
+                      dui.
+                    </p>
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <button
+                          class="
+                            btn btn-outline-primary
+                            rounded-pill
+                            text-uppercase
+                            py-1
+                            px-0
+                            w-75
+                            fw-bold
+                          "
+                        >
+                          Solicitar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center mb-3 shadow">
+              <div class="row g-0 py-3 px-2">
+                <div class="col">
+                  <div class="card-body">
+                    <h6 class="card-title text-primary fw-bold mb-3">
+                      Solicitud de medicamentos
+                    </h6>
+                    <p class="card-text lh-1 fw-light">
+                      Lorem ipsum dolor sit amet, consectetur adipscing elit.
+                      Nunc maximus, nulla ut commodo sagittis, sapien dui mattis
+                      dui.
+                    </p>
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <button
+                          class="
+                            btn btn-outline-primary
+                            rounded-pill
+                            text-uppercase
+                            py-1
+                            px-0
+                            w-75
+                            fw-bold
+                          "
+                        >
+                          Solicitar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center mb-3 shadow">
+              <div class="row g-0 py-3 px-2">
+                <div class="col">
+                  <div class="card-body">
+                    <h6 class="card-title text-primary fw-bold mb-3">
+                      Cambios de IPS
+                    </h6>
+                    <p class="card-text lh-1 fw-light">
+                      Lorem ipsum dolor sit amet, consectetur adipscing elit.
+                      Nunc maximus, nulla ut commodo sagittis, sapien dui mattis
+                      dui.
+                    </p>
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <button
+                          class="
+                            btn btn-outline-primary
+                            rounded-pill
+                            text-uppercase
+                            py-1
+                            px-0
+                            w-75
+                            fw-bold
+                          "
+                        >
+                          Solicitar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 justify-content-center mb-3 shadow">
+              <div class="row g-0 py-3 px-2">
+                <div class="col">
+                  <div class="card-body">
+                    <h6 class="card-title text-primary fw-bold mb-3">
+                      Vacunación
+                    </h6>
+                    <p class="card-text lh-1 fw-light">
+                      Lorem ipsum dolor sit amet, consectetur adipscing elit.
+                      Nunc maximus, nulla ut commodo sagittis, sapien dui mattis
+                      dui.
+                    </p>
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <button
+                          class="
+                            btn btn-outline-primary
+                            rounded-pill
+                            text-uppercase
+                            py-1
+                            px-0
+                            w-75
+                            fw-bold
+                          "
+                        >
+                          Solicitar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Link services page -->
+        <div class="row align-items-center justify-content-center pt-5">
+          <div class="col-6 text-center">
+            <a href="#" class="text-primary"> Ver todos los servicios </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section interesting links -->
+    <section class="py-5">
+      <div class="container">
+        <h3 class="fw-bold text-primary mb-4">Enlaces de interés:</h3>
+
+        <!-- Icon list -->
+        <div class="row row-cols-1 row-cols-md-3 g-2 gx-3">
+          <div class="col">
+            <div
+              class="
+                ag-list-icons ag-list-icons_bottomless ag-list-icons_hover
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                bg-white
+                border-bottom
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-arrow-right-circle
+                  mb-0
+                "
+              >
+                Dónde recibir atención virtual en salud
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                ag-list-icons ag-list-icons_bottomless ag-list-icons_hover
+                d-flex
+                align-items-center
+                h-100
+                border-bottom
+                px-4
+                py-3
+                lh-1
+                bg-white
+                shadow
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-arrow-right-circle
+                  mb-0
+                "
+              >
+                Todo sobre nuestros trámites y procesos
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                ag-list-icons ag-list-icons_bottomless ag-list-icons_hover
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                bg-white
+                border-bottom
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-arrow-right-circle
+                  mb-0
+                "
+              >
+                Consulta de resultados
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                ag-list-icons ag-list-icons_bottomless ag-list-icons_hover
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                bg-white
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-arrow-right-circle
+                  mb-0
+                "
+              >
+                Solicitud de medicamentos
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                ag-list-icons ag-list-icons_bottomless ag-list-icons_hover
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                bg-white
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-arrow-right-circle
+                  mb-0
+                "
+              >
+                Solicitud de autorización de servicios de salud
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="
+                ag-list-icons ag-list-icons_bottomless ag-list-icons_hover
+                d-flex
+                shadow
+                align-items-center
+                h-100
+                px-4
+                py-3
+                lh-1
+                bg-white
+              "
+            >
+              <p
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  ag-list-icons__txt ag-list-icons__txt_secondary
+                  i-arrow-right-circle
+                  mb-0
+                "
+              >
+                Trámite de documentos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section events -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h3 class="fw-bold text-primary mb-4">Eventos del mes:</h3>
+
+        <!-- Events carrousel -->
+        <div
+          id="carouselExampleIndicators"
+          class="carousel carousel-dark slide pb-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators align-items-center">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              class="active"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- ITEM 01 -->
+            <div class="carousel-item">
+              <!-- Events items -->
+              <div class="row flex-column flex-sm-row mt-5">
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0 flex-column flex-xl-row py-4 px-3">
+                      <div class="ag-card__overlay col-md-4 i-play-circle">
+                        <img
+                          src="assets/imgs/img_card.png"
+                          class="
+                            ag-card__overlay-img
+                            img-fluid
+                            w-100
+                            h-100
+                            rounded-start
+                          "
+                          alt="¡Aseguramos el logro más importante de los empresarios!"
+                        />
+                      </div>
+                      <div class="col-xl-8">
+                        <div class="card-body">
+                          <h6 class="card-title text-primary fw-bold mb-3">
+                            Título del evento EPS SURA
+                          </h6>
+                          <ul class="list-unstyled fw-light">
+                            <li class="ag-list-unstyled__item i-calendar">
+                              25/09/2021
+                            </li>
+                            <li class="ag-list-unstyled__item i-clock">
+                              18:00
+                            </li>
+                            <li class="ag-list-unstyled__item i-locate">
+                              San Fernando Plaza
+                            </li>
+                          </ul>
+                          <p class="card-text">
+                            En SURA acompañamos a aquellos empresarios que
+                            construyen empresa y que con su equipo, trabajan
+                            por…
+                          </p>
+                          <button
+                            class="
+                              btn btn-outline-primary
+                              rounded-pill
+                              text-uppercase
+                              py-1
+                              px-2
+                              fs-6
+                            "
+                          >
+                            ver detalle
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0 flex-xl-row py-4 px-3">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/imgs/img_card.png"
+                          class="
+                            ag-card__overlay-img
+                            img-fluid
+                            w-100
+                            h-100
+                            rounded-start
+                          "
+                          alt="¡Aseguramos el logro más importante de los empresarios!"
+                        />
+                      </div>
+                      <div class="col-xl-8">
+                        <div class="card-body">
+                          <h6 class="card-title text-primary fw-bold mb-3">
+                            Título del evento EPS SURA
+                          </h6>
+                          <ul class="list-unstyled fw-light">
+                            <li class="ag-list-unstyled__item i-calendar">
+                              25/09/2021
+                            </li>
+                            <li class="ag-list-unstyled__item i-clock">
+                              18:00
+                            </li>
+                            <li class="ag-list-unstyled__item i-locate">
+                              San Fernando Plaza
+                            </li>
+                          </ul>
+                          <p class="card-text fw-light">
+                            En SURA acompañamos a aquellos empresarios que
+                            construyen empresa y que con su equipo, trabajan
+                            por…
+                          </p>
+                          <button
+                            class="
+                              btn btn-outline-primary
+                              rounded-pill
+                              text-uppercase
+                              py-1
+                              px-2
+                              fs-6
+                            "
+                          >
+                            ver detalle
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 02 -->
+            <div class="carousel-item active">
+              <!-- Events items -->
+              <div class="row flex-column flex-sm-row mt-5">
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0 flex-column flex-xl-row py-4 px-3">
+                      <div class="ag-card__overlay col-md-4 i-play-circle">
+                        <img
+                          src="assets/imgs/img_card.png"
+                          class="
+                            ag-card__overlay-img
+                            img-fluid
+                            w-100
+                            h-100
+                            rounded-start
+                          "
+                          alt="¡Aseguramos el logro más importante de los empresarios!"
+                        />
+                      </div>
+                      <div class="col-xl-8">
+                        <div class="card-body">
+                          <h6 class="card-title text-primary fw-bold mb-3">
+                            Título del evento EPS SURA
+                          </h6>
+                          <ul class="list-unstyled fw-light">
+                            <li class="ag-list-unstyled__item i-calendar">
+                              25/09/2021
+                            </li>
+                            <li class="ag-list-unstyled__item i-clock">
+                              18:00
+                            </li>
+                            <li class="ag-list-unstyled__item i-locate">
+                              San Fernando Plaza
+                            </li>
+                          </ul>
+                          <p class="card-text">
+                            En SURA acompañamos a aquellos empresarios que
+                            construyen empresa y que con su equipo, trabajan
+                            por…
+                          </p>
+                          <button
+                            class="
+                              btn btn-outline-primary
+                              rounded-pill
+                              text-uppercase
+                              py-1
+                              px-2
+                              fs-6
+                            "
+                          >
+                            ver detalle
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0 flex-xl-row py-4 px-3">
+                      <div class="ag-card__overlay col-md-4">
+                        <img
+                          src="assets/imgs/img_card.png"
+                          class="
+                            ag-card__overlay-img
+                            img-fluid
+                            w-100
+                            h-100
+                            rounded-start
+                          "
+                          alt="¡Aseguramos el logro más importante de los empresarios!"
+                        />
+                      </div>
+                      <div class="col-xl-8">
+                        <div class="card-body">
+                          <h6 class="card-title text-primary fw-bold mb-3">
+                            Título del evento EPS SURA
+                          </h6>
+                          <ul class="list-unstyled fw-light">
+                            <li class="ag-list-unstyled__item i-calendar">
+                              25/09/2021
+                            </li>
+                            <li class="ag-list-unstyled__item i-clock">
+                              18:00
+                            </li>
+                            <li class="ag-list-unstyled__item i-locate">
+                              San Fernando Plaza
+                            </li>
+                          </ul>
+                          <p class="card-text fw-light">
+                            En SURA acompañamos a aquellos empresarios que
+                            construyen empresa y que con su equipo, trabajan
+                            por…
+                          </p>
+                          <button
+                            class="
+                              btn btn-outline-primary
+                              rounded-pill
+                              text-uppercase
+                              py-1
+                              px-2
+                              fs-6
+                            "
+                          >
+                            ver detalle
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ITEM 03 -->
+            <div class="carousel-item">
+              <!-- Events items -->
+              <div class="row flex-column flex-sm-row mt-5">
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0 flex-column flex-xl-row py-4 px-3">
+                      <div class="ag-card__overlay col-md-4 i-play-circle">
+                        <img
+                          src="assets/imgs/img_card.png"
+                          class="
+                            ag-card__overlay-img
+                            img-fluid
+                            w-100
+                            h-100
+                            rounded-start
+                          "
+                          alt="¡Aseguramos el logro más importante de los empresarios!"
+                        />
+                      </div>
+                      <div class="col-xl-8">
+                        <div class="card-body">
+                          <h6 class="card-title text-primary fw-bold mb-3">
+                            Título del evento EPS SURA
+                          </h6>
+                          <ul class="list-unstyled fw-light">
+                            <li class="ag-list-unstyled__item i-calendar">
+                              25/09/2021
+                            </li>
+                            <li class="ag-list-unstyled__item i-clock">
+                              18:00
+                            </li>
+                            <li class="ag-list-unstyled__item i-locate">
+                              San Fernando Plaza
+                            </li>
+                          </ul>
+                          <p class="card-text">
+                            En SURA acompañamos a aquellos empresarios que
+                            construyen empresa y que con su equipo, trabajan
+                            por…
+                          </p>
+                          <button
+                            class="
+                              btn btn-outline-primary
+                              rounded-pill
+                              text-uppercase
+                              py-1
+                              px-2
+                              fs-6
+                            "
+                          >
+                            ver detalle
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0 flex-xl-row py-4 px-3">
+                      <div class="ag-card__overlay col-md-4 i-play-circle">
+                        <img
+                          src="assets/imgs/img_card.png"
+                          class="
+                            ag-card__overlay-img
+                            img-fluid
+                            w-100
+                            h-100
+                            rounded-start
+                          "
+                          alt="¡Aseguramos el logro más importante de los empresarios!"
+                        />
+                      </div>
+                      <div class="col-xl-8">
+                        <div class="card-body">
+                          <h6 class="card-title text-primary fw-bold mb-3">
+                            Título del evento EPS SURA
+                          </h6>
+                          <ul class="list-unstyled fw-light">
+                            <li class="ag-list-unstyled__item i-calendar">
+                              25/09/2021
+                            </li>
+                            <li class="ag-list-unstyled__item i-clock">
+                              18:00
+                            </li>
+                            <li class="ag-list-unstyled__item i-locate">
+                              San Fernando Plaza
+                            </li>
+                          </ul>
+                          <p class="card-text fw-light">
+                            En SURA acompañamos a aquellos empresarios que
+                            construyen empresa y que con su equipo, trabajan
+                            por…
+                          </p>
+                          <button
+                            class="
+                              btn btn-outline-primary
+                              rounded-pill
+                              text-uppercase
+                              py-1
+                              px-2
+                              fs-6
+                            "
+                          >
+                            ver detalle
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section icon list column -->
+    <section class="py-5">
+      <div class="container">
+        <!-- Icon list -->
+        <div class="container px-4">
+          <div class="row g-4 justify-content-between">
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-boletin-saludaldia
+                    "
+                  >
+                    Blog Seguros SURA
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-cuotas-moderadoras
+                    "
+                  >
+                    Cuotas moderadoras y tarifas
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-ley-transparencia
+                    "
+                  >
+                    Ley de transparencia
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-politicas
+                    "
+                  >
+                    Políticas de privacidad y ley de datos
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-linea-etica
+                    "
+                  >
+                    Línea ética Suramericana
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-usuarios-pq
+                    "
+                  >
+                    Asociación de usuarios
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3 col-xl-auto p-0">
+              <div class="ag-list-icons ag-list-icons_bottomless card h-100">
+                <div class="card-body p-0">
+                  <p
+                    class="
+                      ag-list-icons__txt ag-list-icons__txt_size
+                      d-flex
+                      flex-column
+                      text-center
+                      fw-light
+                      mb-0
+                      i-derechos
+                    "
+                  >
+                    Derechos y deberes del afiliado
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Footer one navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light py-4">
+        <div class="container justify-content-between flex-wrap">
+          <!-- Brand vigilado supersalud -->
+          <span class="navbar-brand" href="#">
+            <img src="assets/imgs/logo_sura_bottom.svg" alt="Logo SURA" />
+          </span>
+
+          <!-- Button mobile one navigation -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#footerNavigationTop"
+            aria-controls="footerNavigationTop"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- One navigation -->
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="footerNavigationTop"
+          >
+            <ul class="navbar-nav align-items-lg-center text-lg-center">
+              <li class="nav-item">
+                <a
+                  class="ag-nav-link_sm nav-link fw-bold text-primary"
+                  aria-current="page"
+                  href="#"
+                  >CE0008 DE 2020</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >ESTADOS FINANCIEROS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >CORPORATIVO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >NUESTRAS OFICINAS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >CONTÁCTENOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >TRABAJE CON NOSOTROS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >CONSULTA DE OPORTUNIDAD</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-primary" href="#"
+                  >INDICADORES DE SALUD</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Footer two navigation -->
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-light
+          border-top border-bottom
+          py-4
+        "
+      >
+        <div class="container justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#footerNavigationBottom"
+            aria-controls="footerNavigationBottom"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse flex-grow-0"
+            id="footerNavigationBottom"
+          >
+            <ul class="navbar-nav text-lg-center">
+              <li class="nav-item">
+                <a
+                  class="ag-nav-link_sm nav-link fw-bold text-info"
+                  aria-current="page"
+                  href="#"
+                  >TIEMPO PARA TI</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-info" href="#"
+                  >MATERNIDAD Y PRIMERA INFANCIA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-info" href="#"
+                  >PARA SIEMPRE</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-info" href="#"
+                  >DEBERES Y DERECHOS DEL AFILIADO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-info" href="#"
+                  >AFILIACIÓN PARA DESEMPLEADOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="ag-nav-link_sm nav-link fw-bold text-info" href="#"
+                  >ATENCIÓN VIRTUAL</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Footer contact information -->
+      <div class="container py-5">
+        <!-- Contact info -->
+        <div class="row pb-4 border-bottom">
+          <!-- Content info -->
+          <div class="col-12 col-md-10 d-flex align-items-center">
+            <img
+              src="assets/imgs/supersalud.svg"
+              alt="Logo Vigilado Super Salud"
+            />
+            <ul class="list-unstyled mb-0 ms-4">
+              <li class="fw-bold mb-3">EPS SURAMERICANA S.A.</li>
+              <li class="fw-light mb-3">
+                Para ubicar nuestras oficinas.
+                <a
+                  href="#"
+                  class="
+                    bg-primary
+                    text-white text text-decoration-none
+                    px-2
+                    py-1
+                    rounded-pill
+                  "
+                >
+                  <small>HAZ CLIC AQUI</small>
+                </a>
+              </li>
+              <li class="fw-bold">
+                <p class="mb-0">
+                  Líneas de Atención Medellín 448 6115, Bogotá 489 7941
+                </p>
+                <p>Línea Nacional 018000 519 519.</p>
+              </li>
+              <li>
+                <p class="fw-bold mb-0">Medellín, Antioquia, Colombia.</p>
+                <p class="fw-light mb-0">
+                  Se recomienda utilizar Chrome o Mozilla Firefox en una
+                  resolución de 1024 x 768 o superior.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Link GEOSURA -->
+          <div class="col-12 col-md-2 align-self-end text-end mt-3">
+            <span class="text-primary i-politicas"></span>
+            <a class="fw-bold" href="#"><small>Geo SURA</small></a>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row pt-3">
+          <div class="col-12 col-md-6">
+            <small>© 2021 EPS SURAMERICANA S.A.</small>
+          </div>
+          <div class="col-12 col-md-6 text-end">
+            <a
+              href="#"
+              class="mx-3 fs-5 i-twitter text-decoration-none text-info"
+            ></a>
+            <a
+              href="#"
+              class="fs-5 i-facebook text-decoration-none text-info"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bundle.min.js"></script>
+  </body>
+</html>

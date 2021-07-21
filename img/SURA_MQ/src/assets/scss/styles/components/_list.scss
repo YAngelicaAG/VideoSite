@@ -1,0 +1,6 @@
+.ag-list-unstyled__item {
+  &::before {
+    margin-right: 8px;
+    color: $c-secondary;
+  }
+}
