@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Mulish', sans-serif;
   background-color: #AEADF0;
+  color: white;
 }
 
 /*********
@@ -88,6 +89,7 @@ body {
 
 .c-search {
   height: 300px;
+  text-align: center;
 }
 
 .c-search_title {
@@ -119,7 +121,7 @@ body {
   position: relative;
   padding: 30px;
   width: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .c-carrousel_container {
@@ -300,6 +302,35 @@ body {
 
 .c-login-container_register--url:hover {
   text-decoration: underline;
+}
+
+
+.c-error-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 210px);  
+  background: linear-gradient(#AEADF0, #25CED1);
+}
+
+.c-error-box_title {
+  margin: 10px 0;
+  font-size: 90px;
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+.c-error-box-description {
+
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
 }
 
 .c-footer {
